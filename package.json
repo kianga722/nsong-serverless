@@ -1,0 +1,16 @@
+{
+  "name": "nsong-serverless",
+  "version": "1.0.0",
+  "description": "Displays recent songs from popular Youtube channels with various sorting options",
+  "main": "server.js",
+  "scripts": {
+    "start": "netlify dev",
+    "build": "cd client && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0"
+  }
+}
