@@ -1,16 +1,11 @@
-# nsong
+# nsong-serverless
+
 Displays recent songs from popular Youtube channels with various sorting options
 
-[View App](https://nsong.herokuapp.com)
+[View App](https://song.taco.fyi)
 
 ![screenshot](https://github.com/kianga722/nsong/blob/master/screenshot.png)
 
 ## Summary
 
-* Built primarily using React, Express, and the Youtube API
-* App grabs Youtube channel data and passes to React for rendering
-* Experimented with react-flip-toolkit for transition animations
-
-## Future Improvements
-
-* Implement Redux
+- - Same as [nsong](https://github.com/kianga722/nsong) but now using Netlify serverless functions (to stop relying on Heroku dyno which needs to wake up)
